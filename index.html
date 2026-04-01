@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MUTTHA MUA</title>
+
+<style>
+body {
+    background: #000;
+    color: #00ffcc;
+    font-family: monospace;
+    text-align: center;
+}
+
+h1 {
+    color: red;
+}
+
+.card {
+    border: 1px solid #00ffcc;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 85%;
+}
+
+button {
+    padding: 10px 20px;
+    background: red;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+</style>
+
+</head>
+<body>
+
+<h1>⚠ CHOTA PINGLA ⚠</h1>
+
+<div class="card">
+    <h2>System Info</h2>
+    <p>Name: Shahid</p>
+    <p>Status: GAY.</p>
+    <p>Brain: Not found</p>
+</div>
+
+<div class="card">
+    <h2>Live Roast Generator 🔥</h2>
+    <p id="roast">Click the button… if you dare.</p>
+    <button onclick="generateRoast()">Generate Roast</button>
+</div>
+
+<div class="card">
+    <h2>Mia WIFE not safe either 💀</h2>
+    <p>Mia gives ASS LIKE A PRO.</p>
+    <p>Overthinks so much even her thoughts lag.</p>
+</div>
+
+<script>
+const roasts = [
+TERI BUDI DA FUDDA OHDA CH 0AYA LODA TERI BHEN NU XHODYA TERE FUDDA CH PAATA DANDA
+];
+
+function generateRoast() {
+    const random = roasts[Math.floor(Math.random() * roasts.length)];
+    document.getElementById("roast").innerText = random;
+}
+</script>
+
+</body>
+</html>
